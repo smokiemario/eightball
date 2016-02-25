@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+'use strict'
+
+var c = require('skilstak-colors')
+
+function print(message) {
+  process.stdout.write(message + "\n")
+}
+while (true) {
+  print(c.cl + c.multi("Welcome! \n to \n my \n 8ball \n Program!"))
+}
